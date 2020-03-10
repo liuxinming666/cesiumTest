@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-      <echarts-cesium3></echarts-cesium3>
+      <images-cesium></images-cesium>
+      <!--<echarts-cesium3></echarts-cesium3>-->
       <!--<echarts-cesium2></echarts-cesium2>-->
       <!--<EchartsCesium></EchartsCesium>-->
       <!--<heatmap-cesium></heatmap-cesium>-->
@@ -15,10 +16,12 @@ import EchartsCesium from "./components/echartsCesium";
 import HeatmapCesium from "./components/heatmapCesium";
 import EchartsCesium2 from "./components/echartsCesium2";
 import EchartsCesium3 from "./components/echartsCesium3";
+import ImagesCesium from "./components/imagesCesium";
 
 export default {
   name: 'App',
   components: {
+      ImagesCesium,
       EchartsCesium3,
       EchartsCesium2,
       HeatmapCesium,
